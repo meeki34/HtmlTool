@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML & CSS Practice Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/codemirror.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <label for="htmlInput">HTML</label>
+            <textarea id="htmlInput"><h1>Hello, World!</h1>
+<p>Start editing your HTML here.</p></textarea>
+            <label for="cssInput">CSS</label>
+            <textarea id="cssInput">body {
+    background-color: #f9f9f9;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: #666;
+}</textarea>
+        </div>
+        <div class="preview">
+            <iframe id="preview"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/addon/edit/closebrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.7/addon/fold/brace-fold.min.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
